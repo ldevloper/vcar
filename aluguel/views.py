@@ -42,9 +42,9 @@ def realizar_cadastro(request):
             return redirect('/')
         else:
             form = ClienteForm()
-            return render(request, "aluguel/realizar_aluguel.html", {'form': form})
+            return render(request, "cliente/realizar_cadastro.html", {'form': form})
     else:
         form = ClienteForm()
-        return render(request, "aluguel/realizar_aluguel.html", {'form': form})
+        return render(request, "cliente/realizar_cadastro.html", {'form': form})
 
 
