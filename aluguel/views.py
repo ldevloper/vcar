@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Carro, Aluguel, Cliente
+from .models import Carro, Aluguel
 from .forms import AluguelForm, ClienteForm
 
 # Create your views here.
